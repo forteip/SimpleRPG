@@ -6,14 +6,30 @@
 
   <ItemGroup>
     <None Remove="component\images\locations\Home.jpg" />
+    <None Remove="images\locations\Farmhouse.jpg" />
+    <None Remove="images\locations\Farm_Field.jpg" />
+    <None Remove="images\locations\Forest.jpg" />
+    <None Remove="images\locations\Herbalist_Hut.jpg" />
+    <None Remove="images\locations\Herb_Garden.jpg" />
     <None Remove="images\locations\Home.jpg" />
     <None Remove="images\locations\Home.png" />
+    <None Remove="images\locations\Town_Center.jpg" />
+    <None Remove="images\locations\Town_Gate.jpg" />
+    <None Remove="images\locations\Trade_shop.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="component\images\locations\Home.jpg" />
+    <Resource Include="images\locations\Farmhouse.jpg" />
+    <Resource Include="images\locations\Farm_Field.jpg" />
+    <Resource Include="images\locations\Forest.jpg" />
+    <Resource Include="images\locations\Herbalist_Hut.jpg" />
+    <Resource Include="images\locations\Herb_Garden.jpg" />
     <Resource Include="images\locations\Home.jpg" />
     <Resource Include="images\locations\Home.png" />
+    <Resource Include="images\locations\Town_Center.jpg" />
+    <Resource Include="images\locations\Town_Gate.jpg" />
+    <Resource Include="images\locations\Trade_shop.jpg" />
   </ItemGroup>
 
 </Project>
