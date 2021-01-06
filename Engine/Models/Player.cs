@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Collections.Generic;
 using System.Text;
+using System.Collections.ObjectModel;
 
 namespace Engine.Models
 {
@@ -66,6 +67,13 @@ namespace Engine.Models
                 _level = value;
                 OnPropertyChanged(nameof(Level));
             }
+        }
+
+        public ObservableCollection<GameItem> Inventory { get; set; }
+
+        public Player()
+        {
+            Inventory = new ObservableCollection<GameItem>();
         }
 
     }
